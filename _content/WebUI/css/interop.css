@@ -1,0 +1,11 @@
+﻿.fadeIn {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0); /* ADDED - start x position as -50px */
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+
+    .fadeIn:hover {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); /* ADDED - move x to 0 on hover */
+    }
